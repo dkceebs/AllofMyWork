@@ -1,0 +1,476 @@
+/*以下、課題1
+.TEST {
+    width: 900px;
+    height: 100px;
+    margin: 100px;
+    padding: 100px;
+    border: ridge black;
+    line-height: 100px;
+    text-shadow: 10px 10px 5px yellow;
+    box-shadow: 10px 10px 10px red;
+    border-radius: 10em;
+    opacity: 0.6;
+    background-color: gray;
+    cursor: wait;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+*/
+
+/*以下、課題2
+.INTRO {
+    height: 800px;
+    width: 900px;
+    margin: 100px;
+}
+
+.img {
+    margin-left: inherit;
+    width: inherit;
+}
+
+.INTRO h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.INTRO p {
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: left;
+}
+*/
+
+/*以下、課題3*/
+style {
+    position: relative;
+    max-width: 1366px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff7043;
+}
+
+.menu li {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.mainvisual {
+    position: inherit;
+    height: 600px;
+    width: 100%;
+    background: url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    white-space: nowrap;
+}
+
+.mainvisual p1 {
+    position: inherit;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    width: 100%;
+}
+
+.mainvisual p2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+    width: 100%;
+}
+
+.aboutstart {
+    white-space: nowrap;
+}
+
+.about1 p {
+    color: rgb(218, 163, 12);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+.about2 p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about3 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.about4 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about5 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about6 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.about7 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.about8 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.imgBox {
+    display: flex;
+    padding-top: 80px;
+}
+
+.imgBox p img {
+    width: 100%;
+}
+
+.news1 p {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.news2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: black;
+    padding-top: 30px;
+}
+
+.news3 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+.logo1 p {
+    white-space: pre;
+    text-align: left;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.logo2 p {
+    white-space: pre;
+    text-align: left;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.logo3 p {
+    white-space: pre;
+    text-align: left;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.nothing2 {
+    padding-top: 30pt;
+}
+
+.More {
+    position: relative;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+ul.More1 a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+ul.More1 a:hover {
+    color: #ff7043;
+}
+
+
+
+.More1 {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nothing {
+    padding-top: 60px;
+}
+
+.Access {
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.Access p1 {
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Access p2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: black;
+}
+
+.Access iframe {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+    padding-left: 10%;
+}
+
+.Access p {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: left;
+    white-space: pre-line;
+    line-height: 50px;
+    text-align: start;
+    margin-right: 300px;
+    margin-left: 25%;
+    padding-bottom: 60px;
+    white-space: nowrap;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.contact h1 {
+    font-size: 24px;
+    color: black;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.contact p1 {
+    font-size: 16px;
+    color: black;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact p2 {
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    line-height: 30px;
+    text-align: center;
+    white-space: pre;
+}
+
+.contact p3 {
+    font-size: 16px;
+    color: black;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    white-space: pre-line;
+    line-height: 30px;
+    text-align: center;
+}
+
+.nothing1 {
+    padding-top: 70px;
+}
+
+
+.formbox {
+    display: inline-block;
+    border-top: solid #bfbfbf;
+    border-bottom: solid #bfbfbf;
+    height: 793px;
+    width: 900px;
+    margin-left: 25%;
+    break-inside: ridge;
+}
+
+.formbox dt {
+    border-right: solid #bfbfbf;
+    padding-left: 16px;
+    padding-right: 64px;
+    display: table;
+    width: 270px;
+    text-align: left;
+    line-height: 70px;
+    height: 130px;
+}
+
+.formbox dl {
+    display: flex;
+}
+
+.formbox dd {
+    height: 40px;
+    width: 400px;
+    display: inline-grid;
+    padding-left: 40px;
+    padding-right: 64px;
+    margin-top: 20px;
+}
+
+.formbox dd span {
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.row-5 {
+    width: 400px;
+    height: 80px;
+
+}
+
+.名前 {
+    border-bottom: ridge;
+}
+
+.メール {
+    border-top: ridge;
+}
+
+.チーズ {
+    border-top: ridge;
+    border-bottom: ridge;
+}
+
+.詳細 {
+    border-top: ridge;
+}
+
+
+.nothing5 {
+    padding-top: 30px;
+}
+
+.send {
+    position: relative;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+ul.send1 a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+ul.send1 a:hover {
+    color: #ff7043;
+}
+
+.send1 {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nothing3 {
+    padding-top: 140px;
+}
+
+.copyrights {
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 50%;
+    margin: 0 auto;
+}

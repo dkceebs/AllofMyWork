@@ -1,0 +1,924 @@
+style {
+    width: 1366px;
+    height: 100px;
+    background-color: gray;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: absolute;
+    background-color: rgba(16, 47, 148, 0.795);
+    color: aliceblue;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.java {
+    background-color: rgb(207, 158, 66);
+    color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+form {
+    margin-top: 66px;
+}
+
+a.abc {
+    text-decoration: none;
+    color: white;
+}
+
+.email {
+    position: relative;
+    width: 250px;
+    margin-left: 650px;
+    margin-right: 30px;
+    margin-top: 20px;
+    white-space: pre;
+}
+
+.password {
+    position: relative;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+div.navbar-header {
+    position: relative;
+    margin-right: 40px;
+    padding-top: 18px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fakebook {
+    font-weight: bold;
+    font-size: 38px;
+    margin: auto 0;
+    letter-spacing: -1.1px;
+    font-family: Tahoma;
+    transition: 0.9s;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(32, 51, 158);
+    margin-top: 1px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 110px;
+    border: solid 0.8px;
+    border-radius: 2px;
+    border-color: rgb(46, 46, 46);
+    transition: background-color 0.3s;
+}
+
+.navbar-brand:hover {
+    background-color: rgb(73, 75, 219);
+}
+
+h1.picsentence {
+    background: url(https://mikata.shingaku.mynavi.jp/img/umi/5368/151130123823/1.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding-right: 50px;
+    padding-top: 0px;
+    font-size: 18px;
+    white-space: pre;
+    width: 800px;
+    height: 500px;
+    padding-top: 30px;
+}
+
+div.question {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    padding: 0px;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.four {
+    width: 518px;
+    padding-bottom: 30px;
+    background: white;
+    height: 350px;
+    padding-left: 80px;
+}
+
+p.five {
+    display: block;
+    position: relative;
+    padding-left: 1em;
+}
+
+p.five input {
+    top: 0;
+    bottom: 0;
+    left: 0.1;
+    margin: auto;
+}
+
+.log {
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(16, 47, 148, 0.795);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+.login {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p.explanation {
+    font-size: 9.5px;
+    white-space: pre-wrap;
+    width: 350px;
+}
+
+a.forgot {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+input {
+    background-color: rgb(206, 227, 255);
+    border: solid 1.2px #d6d6d6;
+    ;
+}
+
+p.or {
+    font-size: 10px;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+p.or:before,
+p.or:after {
+    content: "";
+    flex-grow: 1;
+    height: 1.2px;
+    background: rgb(196, 195, 195);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a.create {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(82, 153, 74);
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: rgb(0, 104, 17);
+    transition: 0.4sec;
+}
+
+label.zero1 {
+    border-radius: 4px;
+    padding-left: 35px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.others {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+div.theothers {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+div.theotherss {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+a.i {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+a.a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.b1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b1:hover {
+    color: orange;
+}
+
+a.b2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b2:hover {
+    color: orange;
+}
+
+a.b3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b3:hover {
+    color: orange;
+}
+
+a.b4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b4:hover {
+    color: orange;
+}
+
+a.b5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b5:hover {
+    color: orange;
+}
+
+a.b6 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b6:hover {
+    color: orange;
+}
+
+a.b7 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b7:hover {
+    color: orange;
+}
+
+a.b8 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b8:hover {
+    color: orange;
+}
+
+a.b9 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b9:hover {
+    color: orange;
+}
+
+a.b10 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b10:hover {
+    color: orange;
+}
+
+a.b11 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b11:hover {
+    color: orange;
+}
+
+a.b12 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b12:hover {
+    color: orange;
+}
+
+a.c1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c1:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c2:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c3:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c4:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c5:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c6 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c6:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c7 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c7:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c8 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c8:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c9 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c9:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c10 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c10:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c11 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c11:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c12 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c12:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.d1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d1:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d2:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d3:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d4:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d5:hover {
+    color: rgb(6, 30, 240);
+}

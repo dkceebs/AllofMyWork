@@ -1,0 +1,858 @@
+body {
+    margin: 0px;
+}
+
+style {
+    width: 1366px;
+    height: 1000px;
+    background-color: gray;
+}
+
+header {
+    position: absolute;
+    background-color: rgba(16, 47, 148, 0.795);
+    color: aliceblue;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+div.time {
+    display: flex;
+    justify-content: left;
+}
+
+h1.info {
+    margin-top: 100px;
+}
+
+dt.name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+dt.email {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+dt.password {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+dt.photo {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+dl {}
+
+
+a.abc {
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap
+}
+
+.fakebook {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 38px;
+    margin: auto 0;
+    letter-spacing: -1.1px;
+    font-family: Tahoma;
+    transition: 0.9s;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(9, 160, 72);
+    margin-top: 1px;
+    padding: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 100px;
+}
+
+.navbar-brand:hover {
+    background: rgb(160, 68, 68);
+}
+
+div.question {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+}
+
+fieldset {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 150px;
+    background-color: white;
+    border: none;
+    padding: 0px;
+}
+
+dd {
+    margin: 0px;
+}
+
+div.four {
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: white;
+    border: solid 1.2px #d6d6d6;
+    border-radius: 5px;
+    height: 350px;
+}
+
+form {
+    position: relative;
+    text-align: center;
+}
+
+h1.fill {
+    margin-top: 77px;
+    position: relative;
+    text-align: center;
+}
+
+dt.name {
+    font-weight: bold;
+}
+
+dt.email {
+    font-weight: bold;
+}
+
+dt.password {
+    font-weight: bold;
+}
+
+dt.photo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+span.required {
+    color: red;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.others {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+div.theothers {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+div.theotherss {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+a.i {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+a.a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.aaaaaaaaaaa {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.aaaaaaaaaaa::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a.aaaaaaaaaaa:hover::after {
+    transform: scale(1, 1);
+}
+
+a.b1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b1:hover {
+    color: orange;
+}
+
+a.b2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b2:hover {
+    color: orange;
+}
+
+a.b3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b3:hover {
+    color: orange;
+}
+
+a.b4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b4:hover {
+    color: orange;
+}
+
+a.b5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b5:hover {
+    color: orange;
+}
+
+a.b6 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b6:hover {
+    color: orange;
+}
+
+a.b7 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b7:hover {
+    color: orange;
+}
+
+a.b8 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b8:hover {
+    color: orange;
+}
+
+a.b9 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b9:hover {
+    color: orange;
+}
+
+a.b10 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b10:hover {
+    color: orange;
+}
+
+a.b11 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b11:hover {
+    color: orange;
+}
+
+a.b12 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.b12:hover {
+    color: orange;
+}
+
+a.c1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c1:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c2:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c3:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c4:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c5:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c6 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c6:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c7 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c7:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c8 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c8:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c9 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c9:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c10 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c10:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c11 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c11:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.c12 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.c12:hover {
+    color: rgb(0, 255, 42);
+}
+
+a.d1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d1:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d2 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d2:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d3 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d3:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d4 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d4:hover {
+    color: rgb(6, 30, 240);
+}
+
+a.d5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a.d5:hover {
+    color: rgb(6, 30, 240);
+}

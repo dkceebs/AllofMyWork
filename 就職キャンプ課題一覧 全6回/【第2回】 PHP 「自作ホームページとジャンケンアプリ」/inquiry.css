@@ -1,0 +1,294 @@
+html {
+    background-color: #f3ffe7;
+}
+
+style {
+    position: fixed;
+    max-width: 1366px;
+    margin: auto;
+
+}
+
+.headname {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+    align-items: center;
+}
+
+img.esports {
+    padding-right: 20px;
+}
+
+
+.headname h1.a {
+    color: red;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headname h1.b {
+    padding-left: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+}
+
+.followme {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: -webkit-box;
+    text-align: -webkit-right;
+}
+
+.menu {
+    position: relative;
+    white-space: nowrap;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+div.play {
+    position: inherit;
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+div.play h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(blue, #ff708d);
+    background: -webkit-linear-gradient(blue, #e9da56);
+    background: linear-gradient(to right, rgb(234, 255, 112), #ff61e5);
+    color: #FFF;
+    border-radius: 100px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 20px 20 20px;
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+    text-align: center;
+}
+
+div.img {
+    display: flex;
+}
+
+a.top {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 5px dotted #0161af;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+a.search {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 5px dotted #0161af;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+a.list {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 5px dotted #0161af;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+a.about {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 5px dotted #0161af;
+    background-color: white;
+    border-radius: 1px;
+}
+
+a.inquiry {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 5px dotted #0161af;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+a {
+    color: rgb(165, 153, 153);
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7043;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.contact h1 {
+    position: relative;
+    font-size: 24px;
+    color: black;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.contact p1 {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nothing1 {
+    padding-top: 70px;
+}
+
+
+.formbox {
+    display: inline-block;
+    border-top: solid #bfbfbf;
+    border-bottom: solid #bfbfbf;
+    height: 50%;
+    margin-left: 25%;
+    break-inside: ridge;
+}
+
+.formbox dt {
+    border-right: solid #bfbfbf;
+    padding-left: 16px;
+    padding-right: 64px;
+    display: table;
+    width: 270px;
+    text-align: left;
+    line-height: 70px;
+    height: 130px;
+}
+
+.formbox dl {
+    display: flex;
+}
+
+.formbox dd {
+    height: 40px;
+    width: 400px;
+    display: inline-grid;
+    padding-left: 40px;
+    padding-right: 64px;
+    margin-top: 20px;
+}
+
+.formbox dd span {
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.row-5 {
+    height: 80px;
+
+}
+
+.名前 {
+    border-bottom: ridge;
+}
+
+.メール {
+    border-top: ridge;
+}
+
+.チーズ {
+    border-top: ridge;
+    border-bottom: ridge;
+}
+
+.詳細 {
+    border-top: ridge;
+}
+
+
+.nothing5 {
+    padding-top: 30px;
+}
+
+header.send {
+    color: white;
+    padding-right: 7%;
+}
+
+ul.send1 {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.send1 a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+ul.send1 a:hover {
+    color: #ff7043;
+}
+
+.send1 {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ]
+}
+
+.nothing3 {
+    padding-top: 140px;
+}
+
+.copyrights {
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 50%;
+    margin: 0 auto;
+}

@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+style {
+    width: 1366px;
+    height: 1000px;
+    background-color: gray;
+}
+
+header {
+    background-color: rgba(16, 47, 148, 0.795);
+    color: aliceblue;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+a.abc {
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap
+}
+
+.fakebook {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 38px;
+    margin: auto 0;
+    letter-spacing: -1.1px;
+    font-family: Tahoma;
+    transition: 0.9s;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(9, 160, 72);
+    margin-top: 1px;
+    padding: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 100px;
+}
+
+.navbar-brand:hover {
+    background: rgb(7, 156, 56);
+}
+
+div.question {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+}
+
+fieldset {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 150px;
+    background-color: white;
+    border: none;
+    padding: 0px;
+}
+
+p.formName {
+    display: flex;
+    justify-content: space-around;
+    border: ridge 2px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+}
